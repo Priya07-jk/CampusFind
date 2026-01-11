@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusFind - Lost & Found</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CampusFind</h1>
+<p>Lost & Found Portal for Campus</p>
+
+<div class="form">
+  <input type="text" id="itemInput" placeholder="Item name">
+  <input type="text" id="locationInput" placeholder="Location">
+  <input type="text" id="contact" placeholder="Contact (phone or email)">
+
+  <select id="typeSelect">
+    <option value="Lost">Lost</option>
+    <option value="Found">Found</option>
+  </select>
+
+  <button id="addBtn">Add</button>
+</div>
+<input
+  type="text"
+  id="searchInput"
+  placeholder="Search item or location..."
+  style="margin-bottom:15px; width:300px; padding:8px;"
+>
+
+<h2>Items</h2>
+<div id="itemsList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

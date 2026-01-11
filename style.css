@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.form {
+  margin: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 8px auto;
+  width: 60%;
+  background: white;
+  border-radius: 6px;
+}
+
+.item button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 8px auto;
+  width: 60%;
+  border-radius: 6px;
+  background: white;
+}
+
+.lost {
+  border-left: 6px solid crimson;
+}
+
+.found {
+  border-left: 6px solid green;
+}
+
+.item small {
+  color: gray;
+  margin-left: 5px;
+}
+.claimed {
+  border-left: 6px solid green;
+  background: #e8ffe8;
+}
+
+.item button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
